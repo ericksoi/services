@@ -10,10 +10,10 @@
 	<name>services</name>
 
 	<properties>
-		<revision>5.x-SNAPSHOT</revision>
+		<revision>5.2-SNAPSHOT</revision>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<cspace.services.version>5.2-SNAPSHOT</cspace.services.version>
-		<cspace.services.client.version>5.2-SNAPSHOT</cspace.services.client.version>
+		<cspace.services.version>${revision}</cspace.services.version>
+		<cspace.services.client.version>${revision}</cspace.services.client.version>
 		<nuxeo.general.release>7.10-HF17</nuxeo.general.release>
 		<nuxeo.shell.version>${nuxeo.general.release}</nuxeo.shell.version>
 		<nuxeo.platform.version>${nuxeo.general.release}</nuxeo.platform.version>
@@ -39,10 +39,8 @@
 	</distributionManagement>
 
 	<modules>
-	<!--
 		<module>3rdparty</module>
 		<module>services</module>
-	-->
 		<module>cspace-ui</module>
 	</modules>
 
